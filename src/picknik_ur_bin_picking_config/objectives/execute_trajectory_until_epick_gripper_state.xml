@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <root BTCPP_format="4" main_tree_to_execute="Execute Trajectory Until Epick Gripper State">
-  <!-- ////////// -->
+  <!--//////////-->
   <BehaviorTree ID="Execute Trajectory Until Epick Gripper State">
     <Control ID="Sequence">
       <Action ID="Script" code="trajectory_execution_succeeded := 0"/>

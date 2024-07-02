@@ -21,7 +21,7 @@
   <xacro:arg name="epick_tcp_stroke_compensation" default="-0.025" /> <!--  Setting this to a negative value will actually move the TCP away from the gripper  -->
 
   <xacro:arg name="overhead_camera_calibration_file" default="$(find picknik_ur_bin_picking_config)/calibration/nominal_overhead_camera_calibration.yaml"/>
-  <xacro:arg name="wrist_camera_calibration_file" default="$(find ur_epick_base_config)/calibration/nominal_wrist_camera_calibration.yaml"/>
+  <xacro:arg name="wrist_camera_calibration_file" default="$(find picknik_ur_bin_picking_config)/calibration/nominal_wrist_camera_calibration.yaml"/>
 
   <!-- Import macros for main hardware components -->
   <xacro:include filename="$(find ur_description)/urdf/ur_macro.xacro" />
